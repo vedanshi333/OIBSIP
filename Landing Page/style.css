@@ -1,0 +1,107 @@
+body {
+  background-color: papayawhip;
+}
+
+.menu {
+  float: right;
+  margin-top: 51px;
+  margin-right: 360px;
+  font-size: 21px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-left: 30px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.eat p {
+  font-size: 27px;
+  margin-top: 15px;
+  margin-left: 70px;
+  width: 100%;
+  font-style: italic;
+}
+
+.main span {
+  font-size: 48px;
+  margin-left: 50%;
+  font-weight: bold;
+}
+
+.pic {
+  float: left;
+  width: 50%;
+
+}
+
+.product {
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.item {
+  float: left;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 36px;
+  width: 200px;
+  font-size: 24px;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  align-items: center;
+}
+
+.eat {
+  width: 50%;
+  float: left;
+
+}
+
+.eat p {
+  font-size: 60px;
+  margin-top: 90px;
+  margin-left: 70px;
+  width: 100%;
+
+}
+
+.pic {
+  float: left;
+  width: 50%;
+
+}
+
+.main {
+  margin-bottom: 500px;
+
+}
+
+span a:hover {
+  background-color: brown;
+  color: white;
+
+}
+
+li a:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.item:hover {
+  background-color: orchid;
+  color: white;
+}
+
+marquee {
+  font-size: 48px;
+}
