@@ -1,0 +1,70 @@
+body {
+    background-color: #fdd0d0;
+}
+
+hr {
+    height: 1.5px;
+    background-color: black;
+}
+
+.main {
+    border: 1px solid black;
+    border-radius: 15px;
+    float: left;
+    position: fixed;
+    text-align: center;
+}
+
+.main img {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.navlist {
+    font-size: 18px;
+}
+
+.navlist ul {
+    list-style: none;
+}
+
+.navlist li {
+    border: 1px solid black;
+    border-radius: 15px;
+    border-radius: 9px;
+    padding: 9px;
+    text-align: center;
+    margin-top: 6px;
+    margin-right: 24px;
+}
+
+.navlist li:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+}
+.info{
+    margin-left: 200px;
+}
+.info p,li{
+    font-size: 18px;
+}
+
+#profile p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#links li {
+    float: left;
+    margin-left: 30px;
+}
+
+#links li a {
+    text-decoration: none;
+    color: black;
+}
