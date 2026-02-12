@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CRM Alerts</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>CRM Alerts (user: junghoo12345678909@gmail.com)</h1>
+    <p class="mini">This page polls the backend and pops up when 'urgent' or 'normal' appears in mails for the hardcoded
+      user.</p>
+
+    <div>
+      <button id="checkNow">Check Now</button>
+      <label><input type="checkbox" id="autocheck" checked> Auto-check every 5s</label>
+    </div>
+
+    <section id="alerts">
+      <h2>Recent Alerts</h2>
+      <ul id="alertsList"></ul>
+    </section>
+  </main>
+
+  <script src="/static/crm.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LMS</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🎓 Send LMS Event</h1>
+
+    <nav style="margin-bottom:12px">
+      <a href="mail">Mail</a> • 
+      <a href="chat">Chat</a> • 
+      <a href="CRM_Page">CRM</a>
+    </nav>
+
+    <form id="lmsForm">
+      <label>
+        To<br>
+        <input id="to" name="to" required>
+      </label>
+
+      <label>
+        Course<br>
+        <input id="course" name="course" required>
+      </label>
+
+      <label>
+        Event Type<br>
+        <select id="event_type" name="event_type" required>
+          <option value="">Select</option>
+          <option value="assignment_due">Assignment Due</option>
+          <option value="announcement">Announcement</option>
+          <option value="grade_published">Grade Published</option>
+          <option value="live_class">Live Class</option>
+        </select>
+      </label>
+
+      <label>
+        Title<br>
+        <input id="title" name="title" required>
+      </label>
+
+      <label>
+        Description<br>
+        <textarea id="description" name="description" rows="5" required></textarea>
+      </label>
+
+      <label>
+        Priority<br>
+        <select id="priority" name="priority">
+          <option value="normal">Normal</option>
+          <option value="urgent">Urgent</option>
+        </select>
+      </label>
+
+      <div class="actions">
+        <button type="submit">Send LMS Event</button>
+      </div>
+    </form>
+
+    <div id="status" role="status"></div>
+  </main>
+
+  <script src="/static/lms.js"></script>
+</body>
+</html>

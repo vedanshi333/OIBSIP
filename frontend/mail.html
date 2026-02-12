@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mail</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>📬 Send a Mail</h1>
+
+    <nav style="margin-bottom:12px">
+      <a href="/chat">Chat</a> • <a href="/crm">CRM</a> •
+        <a href="/lms">LMS</a>
+    </nav>
+
+    <form id="mailForm" action="/send/form" method="POST">
+      <label>To<br><input id="to" name="to" required></label>
+      <label>From (optional)<br><input id="from" name="from"></label>
+      <label>Subject<br><input id="subject" name="subject" required></label>
+      <label>Message<br><textarea id="body" name="body" rows="6" required></textarea></label>
+
+      <div class="actions">
+        <button type="submit">Send</button>
+      </div>
+    </form>
+
+    <div id="status" role="status"></div>
+  </main>
+  
+  <script src="/static/app.js"></script>
+</body>
+</html>

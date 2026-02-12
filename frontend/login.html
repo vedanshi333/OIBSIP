@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login - Mail App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🔐 Login</h1>
+
+    <form id="loginForm">
+      <label>Username<br><input id="username" name="username" required></label>
+      <label>Password<br><input id="password" name="password" type="password" required></label>
+
+      <div class="actions">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+
+    <div id="status" role="status"></div>
+  </main>
+
+  <script src="login.js"></script>
+</body>
+</html>
